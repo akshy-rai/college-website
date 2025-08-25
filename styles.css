@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: grey;
+    background-color: rgb(184, 195, 35);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -18,7 +18,7 @@ header {
 }
 
 .nav-bar {
-    background-color: #96940d;
+    background-color: #0d8196;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -98,12 +98,37 @@ header {
     color: #3498db;
 }
 
-footer{
-    background-color: gray;
+main{
+    max-width: 1200px;
+    min-height: 30vh;
 }
-
+footer{
+    background-color: #0d8196;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+.socials{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
 footer ul{
     list-style: none ;
     text-align: center;
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    padding: 0px 500px 0px 500px;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.author-credit{
+    text-align: center;
 }
