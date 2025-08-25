@@ -109,15 +109,8 @@ main {
 footer {
     background-color: #0d8196;
     text-align: center;
-    padding: 25px;
+    padding: 25px 0px 40px 0;
     color: white;
-}
-
-.socials {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 footer ul {
