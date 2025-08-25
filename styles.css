@@ -20,13 +20,13 @@ header {
     text-align: center;
     background-color: brown;
     padding: 25px;
-    display: block;
+    display: flex;
     overflow: hidden;
-}
-.nav-bar ul {
     list-style: none;
-    justify-content: space-between;
-    text-align: center;
+}
+
+.nav-content{
+    list-style:none;
 }
 
 .nav-bar li {
@@ -44,8 +44,4 @@ footer ul{
     list-style: none ;
     text-align: center;
     display: inline;
-}
-
-footer li{
-    
 }
