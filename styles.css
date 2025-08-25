@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: rgb(184, 195, 35);
+    background-color: rgb(246, 238, 0);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
